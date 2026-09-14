@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Bezerra"
+    given-names: "Anibal"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "GOWAI: Global Observables with Artificial Intelligence"
+version: 1.0.0
+date-released: 2026-09-14
+url: "https://github.com/anibalbezerra/GOWAI"
+doi: "10.5281/zenodo.22752793"  
