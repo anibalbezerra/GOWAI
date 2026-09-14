@@ -1,0 +1,42 @@
+{
+    "header": {
+        "dataset_name": "AuAu 0.2TeV \u2013 dual-channel (energy density + geometry)",
+        "description": "ch0 = image/255 (absolute energy density), ch1 = image/sum (geometry). Polynomial baseline in NORMALISED space: pt_norm = f(sum_norm).",
+        "image_shape": [
+            280,
+            280,
+            2
+        ],
+        "test_size": 0.22945205479452058,
+        "max_values": {
+            "max_pixel_raw": 255.0,
+            "max_Nch": 753.3999999999999,
+            "max_pt": 0.6508447842180792,
+            "min_Nch": 0.08627450980392157,
+            "min_pt": 0.4018285950782048,
+            "max_nch_all": [
+                753.3999999999999
+            ],
+            "min_nch_all": [
+                0.08627450980392157
+            ],
+            "max_pt_all": [
+                0.6508447842180792
+            ],
+            "min_pt_all": [
+                0.4018285950782048
+            ],
+            "max_sum": 121691.85414725664
+        },
+        "baseline": {
+            "type": "polynomial_normalised",
+            "degree": 2,
+            "space": "pt_norm = poly(sum_norm)",
+            "coefficients": [
+                -0.18778486704155678,
+                0.25570014585947776,
+                0.7743586503315119
+            ]
+        }
+    }
+}

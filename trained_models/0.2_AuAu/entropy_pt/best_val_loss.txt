@@ -1,0 +1,3 @@
+best score (val + gap penalty) = 0.010274654719978571
+best validation loss           = 0.008787572383880615
+training loss                  = 0.0038306312635540962

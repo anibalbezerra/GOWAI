@@ -9,7 +9,6 @@ __pycache__/
 .venv/
 venv/
 env/
-trained_models/
 
 # uv
 # (uv.lock should be committed — do NOT ignore it)
