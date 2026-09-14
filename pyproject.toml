@@ -1,0 +1,11 @@
+[project]
+name = "GOWAI"
+version = "0.1.0"
+description = "GOWAI: Global Observables with Artificial Intelligence for Relativistic Heavy-Ion Collisions"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "matplotlib>=3.9.4",
+    "scikit-learn>=1.6.1",
+    "tensorflow>=2.20.0",
+]

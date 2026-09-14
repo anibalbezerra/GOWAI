@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+env/
+trained_models/
+
+# uv
+# (uv.lock should be committed — do NOT ignore it)
+
+# Data & large artifacts
+*.tfrecord
+*.dat
+*.keras
+*.npy
+*.npz
+*.pkl
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.csv
+results/
+runs/
+events/
+finalizado/
+run_*/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.out
+*.err
+*.log
